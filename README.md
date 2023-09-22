@@ -17,7 +17,6 @@ source env/bin/activate
 Install requirement.txt
 
 ```Shell
-cd origin
 pip3 install -r requirement.txt
 ```
 
