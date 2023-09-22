@@ -1,0 +1,24 @@
+.DS_Store
+.pyc
+.pytest_cache
+__pycache__
+__pycache__/*
+*.swp
+migrations
+migrations/*
+local_settings.py
+core.egg-info
+core.egg-info/
+static
+media
+
+# vim
+*.swp
+
+# vscode settings
+.vscode/*
+
+# env
+env/
+
+config.py

@@ -1,0 +1,11 @@
+Django==2.2.24
+djangorestframework==3.9.4
+drf-yasg==1.17.0
+psycopg2-binary==2.9.3
+django-utils-six==2.0
+django-oauth-toolkit==1.2.0
+oauth2==1.9.0.post1
+oauthlib==3.0.2
+requests==2.22.0
+django-rest-swagger==2.2.0
+django-extensions==2.2.1
