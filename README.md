@@ -28,6 +28,11 @@ And run this command for makemigrations
 ./manage.py migrate
 ```
 
+Run this project with command
+```Shell
+./manage.py runserver
+```
+
 ## API Documentation POSTMAN
 
 There is postman file in folder postman
