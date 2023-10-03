@@ -1,42 +1,34 @@
 ## Run
 
-Git Clone
+First Install Python3
+
+and then create virtual env
 
 type this command to run:
 
 ```Shell
-git clone https://github.com/prasetyama/simple-rent-mobil.git
+python3 -m venv env
 ```
 
 ```Shell
-composer update
+source env/bin/activate
 ```
 
-Create file .env and change with your database config
+Install requirement.txt
 
 ```Shell
-cp .env.example .env
+pip3 install -r requirement.txt
 ```
 
-Created Database
+Set database in folder origin/settings.py
 
-Migrate Database
-
+And run this command for makemigrations
 ```Shell
-php artisan migrate
+./manage.py makemigrations
+./manage.py migrate
 ```
 
-Create Role Permission with run this command
-```Shell
-php artisan permission:create-permission-routes
-```
+## API Documentation POSTMAN
 
-Add user admin Seeder
-```Shell
-php artisan db:seed --class=CreateAdminUserSeeder
-```
-
-## Run this Project
-```Shell
-php artisan serve
+There is postman file in folder postman
 ```
